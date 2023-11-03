@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Doa Bem</title>
+</head>
+<body>
+
+  <header>
+    <img src="/imagens/logo.jpg" alt="">
+    <h1>Doa Bem</h1>
+  </header>
+  <main>
+    <section id="tela-inicial" class="tela-inicial">
+        <h2>Bem-vindo ao Doa Bem</h2>
+         <p>Doa Bem é uma iniciativa que apoia as ações para alcançar o objetivo de <a href="https://www.un.org/sustainabledevelopment/hunger/" target="_blank">Fome Zero</a> e promover a <a href="https://www.un.org/sustainabledevelopment/agriculture/" target="_blank">Agricultura Sustentável</a> definidos como um dos 17 desafios da ONU. Junte-se a nós nessa causa.</p>
+        <p>Escolha sua opção:</p>
+        <ul>
+            <a href="#doador"><li>Doador (Empresa)</li></a>
+            <a href="#produtor-adubo"><li>Produtor de Adubo</li></a>
+            <a href="#instituicao-solicitante"><li>Instituição Solicitante</li></a>
+        </ul>
+        
+      
+    </section>
+    <section id="doador">
+        <h2>Formulário do Doador (Empresa)</h2>
+        <form id="formulario-doador">
+            <input type="text" placeholder="Nome da Empresa" required>
+            <input type="text" placeholder="Tipo de Doação" required>
+            <input type="number" placeholder="Quantidade" required>
+            <input type="text" placeholder="Telefone" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Observações"></textarea>
+             <button type="submit" id="Enviar">Enviar</button>
+            <button type="button" id="voltar">Voltar para a Página Inicial</button>           
+        </form>
+    </section>
+    <section id="produtor-adubo">
+        <h2>Formulário do Produtor de Adubo</h2>
+        <form id="formulario-produtor">
+            <input type="text" placeholder="Nome do Produtor" required>
+            <input type="text" placeholder="Tipo de Adubo" required>
+            <input type="number" placeholder="Quantidade" required>
+            <input type="text" placeholder="Telefone" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Observações"></textarea>
+            <button type="submit" id="Enviar">Enviar</button>
+            <button type="button" id="voltar">Voltar para a Página Inicial</button>
+            
+        </form>
+    </section>
+    <section id="instituicao-solicitante">
+        <h2>Formulário da Instituição Solicitante</h2>
+        <form id="formulario-instituicao">
+            <input type="text" placeholder="Nome da Instituição" required>
+            <input type="text" placeholder="Necessidade" required>
+            <input type="number" placeholder="Quantidade" required>
+            <input type="text" placeholder="Telefone" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Observações"></textarea>
+             <button type="submit" id="Enviar">Enviar</button>
+          <button type="button" id="voltar">Voltar para a Página Inicial</button>
+         
+        </form>
+    </section>
+    <section id="dicas" class="dicas">
+        <h2>Dicas</h2>
+        <p>Aqui você encontra dicas para contribuir com a redução do desperdício de alimentos e recursos naturais.</p>
+        <ul>
+            <a href="https://www.ecycle.com.br/como-evitar-o-desperdicio-de-alimentos/"><li>Dicas para Redução de Desperdício de Alimentos</li></a>
+            <a href="https://believe.earth/pt-br/guia-preguicoso-para-salvar-o-mundo/"><li>Guia do Preguiçoso para Salvar o Mundo </li></a>
+        </ul>
+    </section>
+    
+  </main>
+  <script src="script.js"></script>
+
+</body>
+</html>
